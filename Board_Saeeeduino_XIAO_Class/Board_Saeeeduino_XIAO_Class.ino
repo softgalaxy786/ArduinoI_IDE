@@ -14,13 +14,14 @@
 # 2.
 */
 
+/*-------------------------------------------------------------------------------------------------*/
 //If you want class_Saeeduino_XAIO class in a separate file, enable following section
 // ThisClass.h or any name of your choice.
 //##ifndef ThisClass_h
 //##define ThisClass_h
 //Enable above lines if moving class in a separate file.
-
 //#include <Arduino.h>      //May be required
+/*-------------------------------------------------------------------------------------------------*/
 #include "SPI.h"
 #include "WIRE.h"
 
@@ -28,7 +29,7 @@
 #define pinADC  1          //pin # for ADC input from A1.
 #define spi_CS  7          // Uses pin 8 as the spi_SCK, pin 9 as spi_MISO, pin 10 as spi_MOSI.
 
-
+/*-------------------------------------------------------------------------------------------------*/
 //Global variables.
 u_int i_pinNo=0;
 int i_Analog_Input_Data=0;
@@ -41,7 +42,7 @@ int frequency = 440; // Frequency of sine wave
 //Variables for I2C
 byte i2c_data = 0;
 
-
+/*-------------------------------------------------------------------------------------------------*/
 class class_Saeeduino_XAIO {
   private:
     uint32_t pinState[10];                                    //Array to store pin state as input(1) or output(0)
