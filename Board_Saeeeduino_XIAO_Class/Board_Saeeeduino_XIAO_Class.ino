@@ -1,14 +1,17 @@
 /*
-# Programmer: 	Raza Bhatti
-# Company:	    Softgalaxy Technologies Inc.
-# Website:	    https://www.linkedin.com/in/softgalaxy
+# Programmer:   Raza Bhatti
+# Company:      Softgalaxy Technologies Inc.
+# Website:      https://www.linkedin.com/in/softgalaxy
 # 
 # Observation or Principle to proposed solutions: There are mostly or always multiple ways to achieve same objective.
 # 
 # Arduino IDE using Saeeeduino XIAO board Program Function: 
 # Explores class functionality using Arduino IDE
 # 1. Ability to set all of 11 pins as input or output and check pin status later as set previously as input or output.
-# 2. 
+# 2. I2C communication testing capability.
+# 3. SPI communication testing capability.
+# 4. Ability to use ADC on board.
+# 5. Ability to use DAC on board.
 # Reference Links:
 # 1. https://wiki.seeedstudio.com/Seeeduino-XIAO/
 # 2.
