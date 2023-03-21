@@ -1,7 +1,3 @@
-#include <Wire.h>
-
-#include <SPI.h>
-
 /*
 # Programmer: 	Raza Bhatti
 # Company:	    Softgalaxy Technologies Inc.
